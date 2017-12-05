@@ -8,13 +8,21 @@ var obj={}
 		{
 			if(user=='X')
             {
-             this.innerHTML='X';
-             user='0';
+            if(this.innerHTML=='')
+             {	
+             	this.innerHTML='X';
+             	game_count++
+             	user='0';
+             }
             }
             else
             {
-            	this.innerHTML='O';
-            	user='X';
+            	if(this.innerHTML=='')
+            		{
+            			this.innerHTML='O';
+            			game_count++
+            			user='X';
+            		}
             }
 
 			var ret=obj.game();
@@ -39,12 +47,13 @@ var obj={}
 			}
 			else
 			{
-				game_count++
+				
 				if(game_count==9)
 					{
 						var a =document.querySelectorAll("td")
 						for(i=0;i<a.length;i++)
 							a[i].innerHTML=''
+						game_count=0
 					}
 
 			}
