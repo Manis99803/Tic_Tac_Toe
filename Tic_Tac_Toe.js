@@ -59,6 +59,7 @@ var obj={}
 			}
 		}
 		var table=document.createElement("table");
+		table.rules="all"
 		document.body.appendChild(table);
 		for(i=0;i<3;i++)
 		{
