@@ -84,77 +84,77 @@ var obj={}
 
 					return 1;
 				}
-			if(a[0].innerHTML=='O' && a[1].innerHTML=='O' && a[2].innerHTML=='O')
+			else if(a[0].innerHTML=='O' && a[1].innerHTML=='O' && a[2].innerHTML=='O')
 				{
 					alert("Player two wins")
 					return 2;
 				}
-			if(a[3].innerHTML=='X' && a[4].innerHTML=='X' && a[5].innerHTML=='X')
+			else if(a[3].innerHTML=='X' && a[4].innerHTML=='X' && a[5].innerHTML=='X')
 				{
 					alert("Player one wins")
 					return 1;
 				}
-			if(a[3].innerHTML=='O' && a[4].innerHTML=='O' && a[5].innerHTML=='O')
+			else if(a[3].innerHTML=='O' && a[4].innerHTML=='O' && a[5].innerHTML=='O')
 				{
 					alert("Player two wins")
 					return 2;
 				}
-			if(a[6].innerHTML=='X' && a[7].innerHTML=='X' && a[8].innerHTML=='X')
+			else if(a[6].innerHTML=='X' && a[7].innerHTML=='X' && a[8].innerHTML=='X')
 				{
 					alert("Player one wins")
 					return 1;
 				}
-			if(a[6].innerHTML=='O' && a[7].innerHTML=='O' && a[8].innerHTML=='O')
+			else if(a[6].innerHTML=='O' && a[7].innerHTML=='O' && a[8].innerHTML=='O')
 				{
 					alert("Player two wins")
 					return 2;
 				}
-			if(a[0].innerHTML=='X' && a[4].innerHTML=='X' && a[8].innerHTML=='X')
+			else if(a[0].innerHTML=='X' && a[4].innerHTML=='X' && a[8].innerHTML=='X')
 				{
 					alert("Player one wins")
 					return 1;
 				}
-			if(a[0].innerHTML=='O' && a[4].innerHTML=='O' && a[8].innerHTML=='O')
+			else if(a[0].innerHTML=='O' && a[4].innerHTML=='O' && a[8].innerHTML=='O')
 				{
 					alert("Player two wins")
 					return 2;
 				}
-			if(a[0].innerHTML=='X' && a[3].innerHTML=='X' && a[6].innerHTML=='X')
+			else if(a[0].innerHTML=='X' && a[3].innerHTML=='X' && a[6].innerHTML=='X')
 				{
 					alert("Player one wins")
 					return 1;
 				}
-			if(a[0].innerHTML=='O' && a[3].innerHTML=='O' && a[6].innerHTML=='O')
+			else if(a[0].innerHTML=='O' && a[3].innerHTML=='O' && a[6].innerHTML=='O')
+			 	{
+					alert("Player two wins")
+					return 2;
+				}
+			else if(a[1].innerHTML=='X' && a[4].innerHTML=='X' && a[7].innerHTML=='X')
+				{
+					alert("Player one wins")
+					return 1;
+				}
+			else if(a[1].innerHTML=='O' && a[4].innerHTML=='O' && a[7].innerHTML=='O')
 				{
 					alert("Player two wins")
 					return 2;
 				}
-			if(a[1].innerHTML=='X' && a[4].innerHTML=='X' && a[7].innerHTML=='X')
+			else if(a[2].innerHTML=='X' && a[5].innerHTML=='X' && a[8].innerHTML=='X')
 				{
 					alert("Player one wins")
 					return 1;
 				}
-			if(a[1].innerHTML=='O' && a[4].innerHTML=='O' && a[7].innerHTML=='O')
+			else if(a[2].innerHTML=='O' && a[5].innerHTML=='O' && a[8].innerHTML=='O')
 				{
 					alert("Player two wins")
 					return 2;
 				}
-			if(a[2].innerHTML=='X' && a[5].innerHTML=='X' && a[8].innerHTML=='X')
+			else if(a[2].innerHTML=='X' && a[4].innerHTML=='X' && a[6].innerHTML=='X')
 				{
 					alert("Player one wins")
 					return 1;
 				}
-			if(a[2].innerHTML=='O' && a[5].innerHTML=='O' && a[8].innerHTML=='O')
-				{
-					alert("Player two wins")
-					return 2;
-				}
-			if(a[2].innerHTML=='X' && a[4].innerHTML=='X' && a[6].innerHTML=='X')
-				{
-					alert("Player one wins")
-					return 1;
-				}
-			if(a[2].innerHTML=='O' && a[4].innerHTML=='O' && a[6].innerHTML=='O')
+			else if(a[2].innerHTML=='O' && a[4].innerHTML=='O' && a[6].innerHTML=='O')
 				{
 					alert("Player two wins")
 					return 2;
